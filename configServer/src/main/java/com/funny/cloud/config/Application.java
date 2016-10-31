@@ -16,9 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableConfigServer
 public class Application {
 
-
-
-    
     @RequestMapping("/sayHello")
     public String sayHello(){
         return "test";
